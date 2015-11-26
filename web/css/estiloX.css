@@ -1,0 +1,195 @@
+
+/* 
+    Created on : 21/11/2015, 08:01:12 PM
+    Author     : drx
+*/
+/*.space{height: 0px;
+       display: block}*/
+
+.space2{height: 30px;
+        width: 25px;
+        display: inline-block}
+.di{padding: 0px 0px 0px 30px}
+
+.inline{display: inline-block}
+
+@media (max-width: 767px) {
+    .invisible-xs {
+/*        display: none !important;*/
+    }
+    table{position: relative;
+          
+    left:-220px}
+    .table1 .div1{width: 270px}
+     li span {position: relative;
+             top: -20px;
+        right:  -10px;
+        float: right;
+        background:rgba(255,255,255,0.3)
+    }
+    .div0{
+        position: relative;
+        top: 650px !important;
+        left:40px !important;
+        height: 300px;
+        width: 200px;
+        border: 2px ;
+        border-radius: 20px;
+        display: inline-block;
+    }
+    .foot2{ top:0px !important; 
+           }
+           .div1 h1 span span{position: relative; 
+                         width: 400px !important;
+                        white-space: nowrap;
+                       left:0px;
+                       font-size: 34px                
+}
+.two ul span {position: relative;
+top:0px}
+/*solo para event btns*/
+span ul li span{position:relative;
+             top: 0px !important;
+             
+}
+
+
+             
+ 
+}
+
+
+    .div0 ul li{top:-280px}
+    .div0{
+        position: relative;
+        top: 1px;
+        right:100%;
+        height: 300px;
+        width: 200px;
+        border: 2px ;
+        border-radius: 20px;
+        display: inline-block;
+    }
+    .table1{position: relative;
+            top:-30px;
+            table-layout: auto;
+
+
+            display: inline-block;
+    }
+
+    li span{
+        margin-left:  10px;
+        float: right;
+        background:rgba(255,255,255,0.3)
+    }
+    te{position: absolute;}
+       .btn-primary{background:rgba(255,255,255,0.3);      
+       float: right}
+    .span1{width: 4px;}
+    .div1{
+        position:relative;
+        top: 0px;
+        height: 300px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+        display: inline-block
+
+
+    }
+
+    .transparent{background:rgba(255,255,255,0.3)}
+
+    .one {    margin: 50px 0px 50px 0px;
+              background-color: transparent;
+    }
+
+    .buttonss{margin: 0px 0px 0px 30px}
+    h1 span{font-family: BankGothic Md BT }
+    .two {
+        background:rgba(255,255,255,0.3);
+    }
+
+    .three {
+        background:rgba(255,255,255,0.3);
+    }
+    /* probar aside */
+    aside{position:relative;
+          left: 100%}
+    html {
+        height: 100%;
+    }
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .header {
+        position:fixed;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        height: 110px;
+        text-align: center;
+        background: transparent;
+        color: white;
+    }
+    .footer {
+        position:fixed;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        background: transparent;
+        color: white;
+    }
+    .footer {
+        top: auto;
+        bottom: 0;
+    }
+    .container .foott{padding-top: 30px; 
+                      top:-200px}
+    .foot2{position: inherit; display: inline-block;padding-top: 30px;  top:-500px; height: 15px;
+           width: 100%; 
+
+           background:rgba(0,0,0,1)}
+    .foot2 .text-center{color: #00FF00;
+                        position:relative;  top:-37px;
+                        font-weight: bolder; 
+                        font-family: BankGothic Md BT}
+    .content {
+        height: 100%;
+        margin: 42px 0;
+        background: transparent;
+    }
+    .aside {
+        position: relative; top: -70px; bottom: 42px;
+        width: 200px;
+        background: transparent;
+        overflow: scroll-y;
+        display: inline-block;
+        float: left;
+
+    }
+    .aside > .inside {
+        position:relative;
+        height: 100%;
+    }
+    .main {
+        width: auto;
+        height: 100%;
+        margin: 0 0 42px 202px;
+        background: transparent;
+        position: relative;
+    }
+    .main .bottom {
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+        margin: 0;
+    }
